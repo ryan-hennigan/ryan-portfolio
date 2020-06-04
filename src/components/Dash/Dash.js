@@ -9,8 +9,9 @@ class Dash extends Component {
   render() {
     let projects = [
         {
-          title: "TODO",
-          description: "in progress"
+          title: "Portfolio Site",
+          description: "This is the protfolio site you are currently viewing.",
+          link: "https://github.com/ryan-hennigan/ryan-portfolio.git"
         }
        ];
     
@@ -18,7 +19,7 @@ class Dash extends Component {
       <div className="Dash">       
         <div className="container">
          {projects.map((item) => 
-            <Project key={uuidv4()} title={item.title} description={item.description}></Project> 
+            <Project key={uuidv4()} title={item.title} description={item.description} link={item.link}></Project> 
          )}
         </div>
       </div>

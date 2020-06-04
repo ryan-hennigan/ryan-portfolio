@@ -9,7 +9,7 @@ class Project extends Component {
               <div className="card-content">
                 <div className="card-title">{this.props.title}</div>
                 <p>{this.props.description}</p>
-                <button className="btn waves-effect light-blue">View</button>
+                <a href={this.props.link} target="_blank" className="btn waves-effect light-blue">View on GitHub</a>
               </div>
             </div>
          </div>
