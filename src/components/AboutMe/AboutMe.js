@@ -4,13 +4,13 @@ import './AboutMe.css';
 class AboutMe extends Component {
   render() {
 
-    const bio = "Hello my name is Ryan. I am passionate about learning how things work.\
-                Since I was young, I've always wanted to dig deeper and fully understand why things worked and how i could build them too. \
-                Whether it be puzzles, computers, or math.\
-                I'm born and raised in Texas, so naturally I attended Texas A&M University to get my bachelors degree in computer science,\
-                a field that gives me limitless opportunities to learn new things every day to keep me occupied. \
-                I'm going to use this site to host all of my future creations, not only to keep track of them,  \
-                but to also force me to see them to completion."
+    const bio = "Hello, my name is Ryan.\
+                Since I was young, I've always had a passion for digging deeper and the need to understand how things worked;\
+                whether it was puzzles, computers, or math.\
+                I was born and raised in Texas, so naturally I attended Texas A&M University. There I studied computer science,\
+                a field that gives me limitless opportunities to learn new technologies every day. \
+                Getting my degree has allowed me to further my passion, and continue working on what I enjoy.\
+                This site will be used to host all of my future projects so that I may keep track of them while holding myself accountable."
 
     return (
       <div className="AboutMe">
